@@ -31,7 +31,7 @@ function CoreConcept({ image, title, description }) {
     </li>
   );
 }
-
+gggrrtrtrg;
 //fgeggrtrttrtth
 gtrrggr;
 trggtr;
