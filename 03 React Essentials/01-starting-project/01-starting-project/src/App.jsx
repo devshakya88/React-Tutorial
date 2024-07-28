@@ -32,6 +32,10 @@ function CoreConcept({ image, title, description }) {
   );
 }
 
+//fgeggrtrttrtth
+gtrrggr;
+trggtr;
+
 function App() {
   return (
     <div>
