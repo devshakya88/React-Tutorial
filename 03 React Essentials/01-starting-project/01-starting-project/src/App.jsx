@@ -1,22 +1,7 @@
-import reactImg from "./assets/react-core-concepts.png";
 import componentImg from "./assets/components.png";
 import { CORE_CONCEPTS } from "./data.js";
-
-const reactDescriptions = ["Fundamental", "Crucial", "Core"];
-
-function genRandomInt(max) {
-  return Math.floor(Math.random() * (max + 1));
-}
-
-function CoreConcept({ image, title, description }) {
-  return (
-    <li>
-      <img src={image} alt={title} />
-      <h3>{title}</h3>
-      <p>{description}</p>
-    </li>
-  );
-}
+import Header from "./components/Header.jsx";
+import CoreConcept from "./components/CoreConcept.jsx";
 
 function App() {
   return (
