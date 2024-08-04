@@ -20,6 +20,7 @@ export default function Player({ initialName, symbol }) {
       <input type="text" required value={playerName} onChange={handleChange} />
     );
     // btnCaption = "Save";
+    //Some
   }
   return (
     <li>
